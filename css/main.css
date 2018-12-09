@@ -1,0 +1,169 @@
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+/*HEADER*/
+header{
+	height: 220px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+nav{
+	height: 150px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+
+.menu li{
+	display: inline-block;
+	padding-right:100px;
+	padding-top: 15px;
+
+}
+.menu li a{
+	color: #939292;
+	text-transform: uppercase;
+	font-family: 'RalewayBold', sans-serif;
+
+}
+.menu li a:hover,focus{
+	text-decoration: none;
+	color: #e1e1e1;
+}
+.orange_line{
+	height: 15px;
+	background-color: #f2ac04;
+}
+.grey_line{
+	margin-top: 8px;
+	height: 2px;
+	background-color: #939292;
+}
+.grey{
+	margin: -10px;
+	padding: 0;
+	height: 2px;
+	background-color: #939292;
+}
+.logo{
+	padding: 20px 0;
+	margin-top: 10px;
+    }
+
+.hp h2{
+	color: #f2ac04;
+	font-family: 'RalewayRegular', sans-serif;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 32px;
+	margin: 0;
+}
+.hp p{
+
+	color: #939292;
+	font-size: 15px ;
+}
+/*SECTION1*/
+.Feautu{
+	color: #000;
+	font-family: 'RalewayBold', sans-serif;
+	font-size: 13px;
+	padding-top: 32px;
+
+}
+.params_nature{
+	height: 310px;
+}
+.params_s{
+	margin-top: 10px;
+	height: 270px;
+	}
+
+.photo_nature img{
+	width: 100%;
+	height: 270px;
+}
+.photo_text{
+  	font-family: 'RalewayRegular', sans-serif;
+	font-size: 13px;
+	text-align: left;
+
+}
+.line_k{
+	margin-top: 9px;
+	height: 1px;
+	background-color: #f2ac04;
+}
+/*SECTION2*/
+.text_news{
+	color: #565656;
+	text-align: center;
+	margin: auto;
+}
+.text_news h4{
+	text-transform: uppercase;
+	font-family: 'RalewayBold', sans-serif;
+	margin-top: 40px;
+}
+.text_news p{
+	font-family: 'RalewayRegular', sans-serif;
+	text-align: left;
+}
+
+.param_icon{
+	text-align: left;
+	margin-bottom: 10px;
+}
+.param_icon i{
+	color: #c0c0c0;
+	font-size: 30px;
+	margin-top: 15px;
+}
+.param_icon>span{
+	font-size: 15px;
+	padding-left: 20px;
+	color: #757575;
+}
+.anothergrey{
+	margin: -1px;
+	padding: -1px;
+	height: 2px;
+	background-color: #c2c2c2;
+}
+/*SECTION3*/
+.ours_clients img{
+	width: 100%;
+}
+/*FOOTER*/
+.logotip{
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+
+}
+.navdown p{
+	color: #535353;
+}
+.navdown p a{
+	color: #535353;
+}
+.blackButton{
+	width: 85px;
+	height: 20px;
+	font-size: 10px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	float: right;
+}

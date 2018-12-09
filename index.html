@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+
+	<title></title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/media.css"/>
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="jquery-1.10.2.js"></script>
+
+
+	<script type="text/javascript">
+		  function toggle_show(id) {
+        document.getElementById(id).style.display = document.getElementById(id).style.display == 'none' ? 'block' : 'none';
+		}
+
+		// function toggle_show (id)  {
+  //       $("#id").style.display = $("#id").style.display == 'none' ? 'block' : 'none';
+		// }
+
+
+
+
+	</script>
+
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="container">
+				<div class="row">
+					<div class="orange_line"></div>
+					<div class="navbar-header  ">
+						<button class="navbar-toggle collapsed menu_btn" data-toggle="collapse" data-target="#top_menu">
+						</button>
+						<div class="col-md-3 logo" >
+							<a href="index.html" "><img  src="img/circles.jpg" alt="logo"></a>
+						</div>
+					</div>	
+						<div class="col-md-6 hp hidden-xs">
+							<h2>Lorem ipsum dolor sit amet</h2>
+							<p>consectetur adipisicing elit. Veritatis qui repellat optio, quo quos.</p>
+						</div>
+					
+					
+				</div>
+				<div class="grey_line"></div>
+				<div class="collapse navbar-collapse navbar-left" id="top_menu">
+							<ul class="menu">
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="#">PRODUCTS</a></li>
+								<li><a href="https://news.google.com/?hl=ru&gl=RU&ceid=RU:ru">NEWS OF GOOGLE</a></li>
+								<li><a href="#">ABOUT US</a></li>
+								<li><a href="#">CONTACTS US</a></li>
+							</ul>
+				</div>
+				
+			</div>
+		</nav>
+	</header>
+	<section class="param_s">
+		<div class="container">
+				<div class="row">
+					<div class="grey"></div>
+				</div>	
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 ">
+					<p class="Feautu">Feautured products</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 ">
+					<div id="carousel" class="carousel slide" data-ride="carousel">
+  				<div class="carousel-inner  ">
+    				<div class="item active params_nature">
+     					 <img src="img/1.jpg" alt="1">
+    				</div>
+    				<div class="item params_nature">
+      						<img src="img/2.jpg" alt="2">
+    				</div>
+    				<div class="item params_nature">
+     						<img src="img/3.jpg" alt="3">
+    				</div>
+  				</div>
+  <!-- Элементы управления -->
+  				<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+   				<i class="fa fa-chevron-circle-left " aria-hidden="true"></i>
+    			<i class="sr-only">Предыдущий</i>
+  				</a>
+  				<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    			<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+    			<i class="sr-only">Следующий</i>
+  				</a>
+					</div>
+				</div>
+				<div class="col-md-6 ">
+					<div class="photo_nature">
+						<img src="img/4.jpg" alt="img4">
+					</div>
+					<div class="line_k"></div>
+					
+					<div class="photo_text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolores earum nihil, libero. Minus doloremque soluta perspiciatis! Rerum  earum nihil, libero. Minus doloremq </p>
+						<button onclick="toggle_show('readmore')" style="cursor:pointer"  type="button" class="blackButton">Read more<span class="caret"></span></button>
+                  <div id="readmore" style="display: none;" class="photo_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolores earum nihil, libero.
+                                </div>
+ 
+					</div>
+					
+					
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section class="param_sect">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4  col-xs-4 text_news">
+					<h4>Some news</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum sit, alias quam commodi accusamus id nostrum facilis. Doloremque, rem, nobis facilis autem ex rerum impedit.</p>
+					
+				</div>
+				<div class="col-md-4 col-sm-4  col-xs-4 text_news">
+					<h4>Who we are?</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum sit, alias quam commodi accusamus id nostrum facilis. Doloremque, rem, nobis facilis autem ex rerum impedit.</p>
+					
+				</div>
+				<div class="col-md-4 col-sm-4  col-xs-4 text_news">
+					<h4>Contacts us</h4>
+					<div class="col-md-8 ">
+						<div class="row">
+							<div class="param_icon">
+								<i class="fa fa-mobile" aria-hidden="true"></i>
+								<span>(626) 921-4592</span>
+							</div>
+						</div>
+						<div class="anothergrey"></div>
+						<div class="row">
+							<div class="param_icon">
+								<i class="fa fa-fax" aria-hidden="true"></i>
+								<span>(626) 921-4592</span>
+							</div>
+						</div>
+						<div class="anothergrey"></div>
+						<div class="row">
+							<div class="param_icon">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<span>Info@gmail.com</span>
+							</div>
+						</div>
+						<div class="anothergrey"></div>
+						<div class="row">
+							<div class="param_icon">
+								<i class="fa fa-home" aria-hidden="true"></i>
+								<span>Orlin Reseach New York </span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="param_s">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 ">
+					<p class="Feautu">OUR CLIENTS</p>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-12 ">
+					<div class="anothergrey"></div>
+				</div>	
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-sm-2 col-xs-2">
+					<div class="ours_clients">
+						<a href=""><img src="img/5.jpg" alt="5"></a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-2">
+					<div class="ours_clients">
+						<a href=""><img src="img/6.png" alt="6"></a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-2">
+					<div class="ours_clients">
+						<a href=""><img src="img/7.jpg" alt="7"></a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-2">
+					<div class="ours_clients">
+						<a href=""><img src="img/8.jpg" alt="8"></a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-2">
+					<div class="ours_clients">
+						<a href=""><img src="img/9.gif" alt="9"></a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-2">
+					<div class="ours_clients">
+						<a href=""><img src="img/10.png" alt="10"></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 ">
+					<div class="anothergrey"></div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-12  ">
+					<a href="index.html"><img src="img/circles.jpg" alt="logo" class="logotip"></a>
+				</div>
+				<div class="col-md-6 col-md-offset-3 navdown">
+					<p>
+						<a href="index.html" >HOME</a> |
+						<a href="index.html">ABOUT US</a> |
+						<a href="index.html">WORK</a> |
+						<a href="index.html">SERVICES</a> |
+						<a href="index.html">RESOURCES</a> |
+						<a href="index.html">ARTICLES</a> |
+						<a href="index.html">CONTACT</a> 
+					</p>
+					<div class="logotip">
+						<p class="logotip">&copy; 2009 Orlin Reseach, Inc</p>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+	</footer>
+	
+	
+
+	<script src="libs/jquery/jquery-2.1.4.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="js/common.js"></script>
+	
+</body>
+</html>
